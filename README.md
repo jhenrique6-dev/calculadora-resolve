@@ -1,45 +1,30 @@
 # Calculadora Resolve Brasil
 
-Projeto React + Vite pronto para subir no GitHub e publicar no Vercel.
+Projeto em React + Vite pronto para subir no GitHub e publicar.
 
-## Como rodar no seu computador
+## Rodar localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-Depois abra o endereço mostrado no terminal.
-
-## Como publicar no GitHub
+## Build
 
 ```bash
-git init
-git add .
-git commit -m "Primeira versão da calculadora"
-git branch -M main
-git remote add origin SEU_LINK_DO_GITHUB_AQUI
-git push -u origin main
+npm run build
 ```
 
-## Como publicar no Vercel
+## Subir no GitHub sem VS Code
 
-1. Crie um repositório no GitHub.
-2. Suba este projeto para o GitHub.
-3. Acesse o Vercel.
-4. Clique em **Add New Project**.
-5. Selecione o repositório.
-6. Clique em **Deploy**.
+1. Extraia os arquivos deste projeto.
+2. Crie um repositório no GitHub.
+3. Clique em **Add file** > **Upload files**.
+4. Envie todos os arquivos da pasta do projeto.
+5. Clique em **Commit changes**.
 
-O Vercel vai gerar um link público para qualquer pessoa usar a calculadora.
+## Publicar no Vercel
 
-## Estrutura
-
-- `src/App.jsx` → calculadora
-- `src/styles.css` → visual da página
-- `src/main.jsx` → inicialização do React
-- `vite.config.js` → configuração do Vite
-
-## Observação
-
-A logo no topo foi mantida no estilo simples com `RB`, como estava no protótipo.
+1. Entre no Vercel.
+2. Importe o repositório do GitHub.
+3. Clique em **Deploy**.
